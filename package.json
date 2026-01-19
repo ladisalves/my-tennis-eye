@@ -1,0 +1,34 @@
+{
+  "name": "p307_my_tennis_eye",
+  "version": "1.0.0",
+  "description": "Was it in or out?",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,css,html,md,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladisalves/my-tennis-eye.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ladisalves/my-tennis-eye/issues"
+  },
+  "homepage": "https://github.com/ladisalves/my-tennis-eye#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.53.1",
+    "@typescript-eslint/parser": "^8.53.1",
+    "eslint": "^9.39.2",
+    "prettier": "^3.8.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
