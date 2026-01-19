@@ -21,3 +21,16 @@ Camera access requires a secure context, so run from `localhost` (or HTTPS) inst
 - `npm run typecheck` — run TypeScript checks without emitting files.
 - `npm run lint` — run ESLint on `src/`.
 - `npm run format` — format the codebase with Prettier.
+
+## Calibration Process (4 Points)
+The calibration defines the court corner and real-world scale. Tap the four points in order:
+
+1. **P1 — Corner vertex**: Tap the exact intersection of the baseline and sideline (inside corner of the “L”).
+2. **P2 — Baseline direction**: Tap a point further down the baseline from P1, staying on the same line.
+3. **P3 — Sideline direction**: Tap a point further down the sideline from P1, staying on that line.
+4. **P4 — Line width marker**: Tap the opposite edge of the same white line at P1 (across the line’s width, not along it).
+
+Tips:
+- Use the loupe to place taps precisely on the painted line edges.
+- Place P2 and P3 as far from P1 as possible within the frame for better perspective accuracy.
+- P4 should be perpendicular to the line, directly across the stripe from P1.
