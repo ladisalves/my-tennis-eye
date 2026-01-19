@@ -1,7 +1,11 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is currently minimal and contains only `README.md`. If you add source code, tests, or assets, keep them in clear, conventional locations (for example: `src/` for application code, `tests/` or `__tests__/` for tests, and `assets/` for static files). Update this document as the structure evolves so contributors can navigate it quickly.
+This repository contains:
+- `README.md` for the high-level overview.
+- `src/` for the Phase 1 web client (`index.html`, `styles.css`, `main.ts`).
+
+If you add source code, tests, or assets, keep them in clear, conventional locations (for example: `src/` for application code, `tests/` or `__tests__/` for tests, and `assets/` for static files). Update this document as the structure evolves so contributors can navigate it quickly.
 
 ## Build, Test, and Development Commands
 No build, run, or test commands are defined yet. When you add tooling, document the exact commands and purpose. Example format:
