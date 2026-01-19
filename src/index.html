@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tennis Eye Phase 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script async src="https://docs.opencv.org/4.x/opencv.js"></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Tennis Eye</h1>
+      <p>Tap four anchor points to calibrate the line corner.</p>
+    </header>
+
+    <main class="app">
+      <section class="video-stage">
+        <video id="court-video" autoplay playsinline muted></video>
+        <canvas id="overlay"></canvas>
+      </section>
+
+      <section class="controls">
+        <button id="start-camera" class="primary">Start Camera</button>
+        <button id="reset-points">Reset Points</button>
+        <div class="toggle-group">
+          <span>Profile</span>
+          <button data-profile="singles" class="toggle active">Singles</button>
+          <button data-profile="doubles" class="toggle">Doubles</button>
+        </div>
+        <div class="status" id="status-text">Awaiting calibration points (0/4).</div>
+      </section>
+    </main>
+
+    <script type="module" src="main.ts"></script>
+  </body>
+</html>
